@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*comment*/
+
+.navbar{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.menuitem{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.mainheader{
+    background-image: url("/images/dark\ background.png");
+    background-size: 100%;
+    background-color: white;
+    height: 950px;
+}
+
+.profile{
+position: absolute;
+width: 250px;
+height: 250px;
+left: 800px;
+top: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 50%;
+}
+
+.title{
+    padding-top: 200px;
+    color: #E5AE20;
+    text-align: center;
+    font-stretch: expanded;
+    height: 600px;
+    background-image: url(/images/lightlogo.png);
+    font-family: 'Josefin Sans', sans-serif;
+    background-repeat: no-repeat;
+    font-size: 52px;
+    background-size: contain;
+    background-position: center;
+}
+
+.title2{
+    padding-top: 30px;
+    color: #353737;
+    text-align: center;
+    font-size: 24px;
+}
+
+.title3{
+    padding-top: 30px;
+    color: #353737;
+    text-align: center;
+    font-size: 18px;
+}
+
+.title4{
+    padding-top: 30px;
+    color: #353737;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+/*About Section*/
+
+.aboutsection{
+    color: #353737;
+    align-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.aboutsection h1{
+    color: #353737;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 24px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 5px rgb(155, 153, 153);
+}
+
+.aboutsection p{
+    color: #353737;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.8;
+    font-size: 18px;
+    padding-bottom: 200px;
+}
+
+/*Project Section*/
+
+.projectsection h1{
+    color: #353737;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px rgb(155, 153, 153);
+}
+
+#categoryGrid {
+    padding: 100px;
+    height: 500px;
+    display: grid;
+    grid-column-gap: 50px;
+    align-content: center;
+    padding-bottom: 100px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "dogdate birdlife health"
+    ;
+  }
+  
+  #dogdate {
+    grid-area: dogdate;
+    height: 350px;
+    width: 350px;
+    padding: 50px;
+    background-image: url("/images/dogdates\ -\ landing.png");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+  }
+
+  #birdlife {
+    grid-area: birdlife;
+    height: 350px;
+    width: 350px;
+    padding: 50px;
+    background-image: url("/images/bird\ life\ -\ landing.png");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+  }
+  
+  #health {
+    grid-area: health;
+    height: 350px;
+    width: 350px;
+    padding: 50px;
+    background-image: url("/images/gov\ -\ landing.png");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+  }
+  
+  
+  .categoryGridArea {
+    background-position: center;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    cursor: pointer;
+    display: grid;
+  }
+
+  .title-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 65px;
+    padding-right: 65px;
+    color: #353737;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+
+  .para-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #353737;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.8;
+    font-size: 18px;
+    padding-bottom: 200px;
+  }
+
+  .para-item {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+
+
+  /*approach Section*/
+
+  .approachsection{
+    align-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.approachsection h1{
+    color: #353737;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 24px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 5px rgb(155, 153, 153);
+}
+
+.approachsection p{
+    color: #353737;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.8;
+    font-size: 18px;
+    padding-bottom: 200px;
+}
+
+  /*process Section*/
+
+  .processsection{
+    align-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.processsection h1{
+    color: #353737;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 24px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 5px rgb(155, 153, 153);
+}
+
+.processsection p{
+    color: #353737;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.8;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+
+.diamond {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-bottom: 100px;
+  }
+
+    /*skill Section*/
+
+    .skillsection{
+        padding-top: 20px;
+        align-content: center;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+    .skillsection h1{
+        color: #353737;
+        padding-top: 100px;
+        text-align: center;
+        font-weight: 600;
+        font-family: 'Josefin Sans', sans-serif;
+        letter-spacing: 3px;
+        font-size: 24px;
+        padding-bottom: 50px;
+        text-shadow: 2px 2px 5px rgb(155, 153, 153);
+    }
+    
+    .skillsection p{
+        color: #353737;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 1.8;
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+
+    .skills-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-left: 200px;
+      padding-right: 50px;
+      color: #353737;
+      text-align: left;
+      font-weight: 600;
+      font-family: 'Josefin Sans', sans-serif;
+      line-height: 1.8;
+      font-size: 18px;
+      padding-bottom: 100px;
+    }
+  
+    .skill-item1 {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .skill-item2 {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+/* Toolbox Section */
+
+.toolbox{
+  width: 100%;
+  padding-top: 20px;
+  justify-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+}
+
+.toolbox h1{
+  color: #353737;
+  padding-top: 100px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+  padding-bottom: 50px;
+  text-shadow: 2px 2px 5px rgb(155, 153, 153);
+}
+
+  .toolboxGrid {
+   display: flex;
+   width: 80%;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   padding-bottom: 100px;
+}
+
+.toolgrid {
+  display: block;
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+
+    /* Footer Section */
+
+  .footer{
+    height: 400px;
+    width: 100%;
+    background-color: #172323;
+  }
+       
+      .footerGrid {
+       display: flex;
+       padding-left: 300px;
+       padding-right: 300px;
+       justify-content: center;
+       margin: 0 auto;
+       flex-wrap: wrap;
+    }
+    
+    .footgrid {
+      display: block;
+      width: 150px;
+      height: 150px;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+
+    .footer h1{
+      font-size: 24px;
+      font-weight: 600;
+      font-family: 'Josefin Sans', sans-serif;
+      color: white;
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .linkbar{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+
+    .link {
+      display: flex;
+      list-style: none;
+      margin: 20px 0px;
+  }
+  
+  .linkitem{
+      color: white;
+      text-decoration: none;
+      text-align: center;
+  }
+  
+  a{
+      text-decoration: none;
+      color: white;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: 18px;
+      font-weight: 800;
+      font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .footer h6{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+  }
+
