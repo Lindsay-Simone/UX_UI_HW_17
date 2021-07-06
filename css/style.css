@@ -59,7 +59,7 @@ border-radius: 50%;
     text-align: center;
     font-stretch: expanded;
     height: 600px;
-    background-image: url(/images/lightlogo.png);
+    background-image: url(/images/lightlogo.PNG);
     font-family: 'Josefin Sans', sans-serif;
     background-repeat: no-repeat;
     font-size: 52px;
@@ -151,7 +151,7 @@ border-radius: 50%;
     height: 350px;
     width: 350px;
     padding: 50px;
-    background-image: url("/images/dogdates\ -\ landing.png");
+    background-image: url("/images/dogdates - landing.PNG");
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50%;
   }
@@ -161,7 +161,7 @@ border-radius: 50%;
     height: 350px;
     width: 350px;
     padding: 50px;
-    background-image: url("/images/bird\ life\ -\ landing.png");
+    background-image: url("/images/bird life - landing.PNG");
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50%;
   }
@@ -171,7 +171,7 @@ border-radius: 50%;
     height: 350px;
     width: 350px;
     padding: 50px;
-    background-image: url("/images/gov\ -\ landing.png");
+    background-image: url("/images/gov - landing.PNG");
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50%;
   }
