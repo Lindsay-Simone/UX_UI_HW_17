@@ -59,7 +59,7 @@ border-radius: 50%;
     text-align: center;
     font-stretch: expanded;
     height: 600px;
-    background-image: url("/images/lightlogo.png");
+    background-image: url("../images/lightlogo.png");
     font-family: 'Josefin Sans', sans-serif;
     background-repeat: no-repeat;
     font-size: 52px;
