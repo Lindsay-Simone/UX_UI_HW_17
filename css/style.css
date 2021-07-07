@@ -117,7 +117,7 @@ border-radius: 50%;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.8;
     font-size: 18px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 /*Project Section - see  bottom of CSS*/
@@ -148,7 +148,7 @@ border-radius: 50%;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.8;
     font-size: 18px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 
   /*process Section*/
@@ -285,79 +285,136 @@ border-radius: 50%;
 
     /* Footer Section */
 
-  .footer{
-    height: 400px;
-    width: 100%;
-    background-color: #172323;
-  }
-       
-      .footerGrid {
-       display: flex;
-       padding-left: 300px;
-       padding-right: 300px;
-       justify-content: center;
-       margin: 0 auto;
-       flex-wrap: wrap;
-    }
-    
-    .footgrid {
-      display: block;
-      width: 150px;
-      height: 150px;
-      padding: 30px;
-      box-sizing: border-box;
-    }
 
-    .footer h5{
-      font-size: 24px;
+    .hi{
+      color: white;
+      background-color: #172323;
+      width: 100%;
+      padding-top: 70px;
+      text-align: center;
       font-weight: 600;
       font-family: 'Josefin Sans', sans-serif;
+      letter-spacing: 3px;
+      font-size: 24px;
+      height: 100px;
+      }
+  
+    .footersection{
+      background-color: #172323;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+  
+    .footercontainer{
+      max-width: 100%;
+      padding: 50px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .dasimages{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 50%;
+    }
+    
+  
+    .foot1{
+      flex: 1;
+      padding: 50px;
+      margin: 3px;
+    }
+  
+    .foot1 h3{
       color: white;
-      text-align: center;
       padding-top: 50px;
-      padding-bottom: 50px;
+      text-align: center;
+      font-weight: 600;
+      font-family: 'Josefin Sans', sans-serif;
+      letter-spacing: 3px;
+      font-size: 18px;
+  }
+  
+    
+  .foot2{
+    flex: 1;
+    padding: 50px;
+    margin: 3px;
+  }
+  
+  .foot2 h3{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  
+  
+  .foot3{
+    flex: 1;
+    padding: 50px;
+    margin: 3px;
+  }
+  
+  .foot3 h3{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  
+  
+  
+  .foot4{
+    flex: 1;
+    padding: 50px;
+    margin: 3px;
+  }
+  
+  .foot4 h3{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  
+  .copy{
+    color: white;
+    background-color: #172323;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    height: 20px;
+    }
+  
+  .footimages{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+  }
+  
+  
+    
+    @media screen and (max-width: 768px){
+      .holdingcontainer{
+        flex-direction: column-reverse;}
     }
 
-    .linkbar{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  
-
-    .link {
-      display: flex;
-      list-style: none;
-      margin: 20px 0px;
-  }
-  
-  .linkitem{
-      color: white;
-      text-decoration: none;
-      text-align: center;
-  }
-  
-  a{
-      text-decoration: none;
-      color: white;
-      padding-left: 50px;
-      padding-right: 50px;
-      font-size: 18px;
-      font-weight: 800;
-      font-family: 'Josefin Sans', sans-serif;
-  }
-
-  .footer h4{
-    font-size: 14px;
-    font-weight: 800;
-    font-family: 'Josefin Sans', sans-serif;
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-  }
-
-
   /* Projects */
+
 
   h5{
     color: #353737;
@@ -463,9 +520,9 @@ font-weight: 600;
 font-family: 'Josefin Sans', sans-serif;
 letter-spacing: 3px;
 font-size: 18px;
-padding-bottom: 50px;
+padding-bottom: 50px;}
   
   @media screen and (max-width: 768px){
     .holdingcontainer{
-      flex-direction: column-reverse;}
-  }
+      flex-direction: column-reverse;}}
+  
