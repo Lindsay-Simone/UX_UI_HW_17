@@ -457,45 +457,120 @@ border-radius: 50%;
   }
 
 
+  /* New Section */
 
+  h1{
+    color: #353737;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px rgb(155, 153, 153); 
+  }
 
+  .projectscontainer{
+    max-width: 100%;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+  }
 
+  .dasimages{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+  }
+  
 
+  .internalcontainerDog{
+    flex: 1;
+    padding: 30px;
+    margin: 3px;
+  }
 
-
-
-
-
-.casestudy{
-  width: 100%;
-  display: flex;
-  background-color: blueviolet;
-  height: 400px;
-  justify-content: space-around;
-  align-content: center;
+  .internalcontainerDog h1{
+    color: #353737;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 24px;
 }
 
-.flexitem{
-  width: 200px;
-  height: 300px;
-  background-image: ;
-  align-self: center;
-  padding: 10px;
-
+.internalcontainerDog p{
+  color: #353737;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+  
+.internalcontainerBird{
+  flex: 1;
+  padding: 30px;
+  margin: 3px;
 }
 
-.casestudyimage{
-  width: auto;
-  height:180px;
-  background-color: black;
-  margin-bottom: 20px;
+.internalcontainerBird h1{
+  color: #353737;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
 }
 
-.casestudytext{
-
+.internalcontainerBird p{
+color: #353737;
+padding-top: 50px;
+text-align: center;
+font-weight: 600;
+font-family: 'Josefin Sans', sans-serif;
+letter-spacing: 3px;
+font-size: 18px;
+padding-bottom: 50px;
 }
 
-.projects{
-  background-color: brown;
-  justify-content: center;
+
+.internalcontainerHealth{
+  flex: 1;
+  padding: 30px;
+  margin: 3px;
 }
+
+.internalcontainerHealth h1{
+  color: #353737;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+.internalcontainerHealth p{
+color: #353737;
+padding-top: 50px;
+text-align: center;
+font-weight: 600;
+font-family: 'Josefin Sans', sans-serif;
+letter-spacing: 3px;
+font-size: 18px;
+padding-bottom: 50px;
+  
+
+
+  @media screen and (max-width: 768px){
+    .holdingcontainer{
+      flex-direction: column-reverse;
+    }
+  }
+  
+  
