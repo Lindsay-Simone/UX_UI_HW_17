@@ -37,10 +37,10 @@ a{
 }
 
 .mainheader{
-    background-image: url("../images/darkbackground.PNG");
-    background-size: 100%;
+    background-image: url("../images/titlebackgroundfade.png");
+    background-size: contain;
     background-color: white;
-    height: 950px;
+    height: 800px;
 }
 
 .profile{
